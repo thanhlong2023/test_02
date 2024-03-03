@@ -1,0 +1,24 @@
+// Base
+@import "./Base/customize";
+@import "./Base/reset";
+
+//Layouts
+@import "./Layouts/header";
+@import "./Layouts/banner";
+
+@import "./Layouts/./product";
+@import "./Layouts/./blog";
+
+@import "./Layouts/./carousel";
+@import "./Layouts/./digital";
+
+@import "./Layouts/./banner2";
+@import "./Layouts/./form";
+
+@import "./Layouts/./different";
+@import "./Layouts/./message";
+
+@import "./Layouts/footer";
+
+//Component
+@import "./Components/button";

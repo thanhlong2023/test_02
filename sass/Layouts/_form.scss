@@ -1,0 +1,193 @@
+.form {
+    height: 962px;
+    background-color: white;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form_item.form_text {
+        width: 73%;
+        background-color: #ea572a;
+        height: 965px;
+    }
+    .form_info {
+        display: flex;
+        flex-direction: column;
+        width: 446px;
+    }
+    .title_form {
+        color: white;
+        font-size: 96px;
+    }
+    .form_item.form_img {
+        width: 27%;
+    }
+    //padding margin
+    .form_text_box {
+        padding-left: 235px;
+        width: 800px;
+    }
+    .title_form {
+        padding-top: 177px;
+        letter-spacing: 18px;
+    }
+    .form_info {
+        padding-top: 44px;
+        input {
+            height: 60px;
+            margin-bottom: 17px;
+            padding-left: 15px;
+            padding-top: 5px;
+            letter-spacing: 3px;
+            font-size: 32px;
+        }
+        .btn_info {
+            width: 241px;
+            height: 59px;
+            font-size: 32px;
+            color: white;
+            background-color: #414042;
+            cursor: pointer;
+        }
+    }
+    .container {
+        position: relative;
+        img {
+            position: absolute;
+            top: 100px;
+            right: 170px;
+            height: 766px;
+        }
+    }
+}
+@media screen and (max-width: 1550px) {
+    .form {
+        height: 841.75px;
+        background-color: white;
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .form_item.form_text {
+            width: 73%;
+            background-color: #ea572a;
+            height: 844.375px;
+        }
+        .form_info {
+            display: flex;
+            flex-direction: column;
+            width: 390.25px;
+        }
+        .title_form {
+            color: white;
+            font-size: 84px;
+        }
+        .form_item.form_img {
+            width: 27%;
+        }
+        //padding margin
+        .form_text_box {
+            padding-left: 205.625px;
+            width: 700px;
+        }
+        .title_form {
+            padding-top: 154.875px;
+            letter-spacing: 15.75px;
+        }
+        .form_info {
+            padding-top: 38.5px;
+            input {
+                height: 52.5px;
+                margin-bottom: 14.875px;
+                padding-left: 13.125px;
+                padding-top: 4.375px;
+                letter-spacing: 2.625px;
+                font-size: 28px;
+            }
+            .btn_info {
+                width: 210.875px;
+                height: 51.625px;
+                font-size: 28px;
+                color: white;
+                background-color: #414042;
+                cursor: pointer;
+            }
+        }
+        .container {
+            position: relative;
+            img {
+                position: absolute;
+                top: 87.5px;
+                right: 148.75px;
+                height: 670.25px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1209px) and (max-width: 1409px) {
+    .form {
+        height: 721.5px;
+        background-color: white;
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .form_item.form_text {
+            width: 73%;
+            background-color: #ea572a;
+            height: 721.5px;
+        }
+        .form_info {
+            display: flex;
+            flex-direction: column;
+            width: 334.5px;
+        }
+        .title_form {
+            color: white;
+            font-size: 72px;
+        }
+        .form_item.form_img {
+            width: 27%;
+        }
+        //padding margin
+        .form_text_box {
+            padding-left: 176.25px;
+            width: 600px;
+        }
+        .title_form {
+            padding-top: 132.75px;
+            letter-spacing: 13.5px;
+        }
+        .form_info {
+            padding-top: 33px;
+            input {
+                height: 45px;
+                margin-bottom: 12.75px;
+                padding-left: 11.25px;
+                padding-top: 3.75px;
+                letter-spacing: 2.25px;
+                font-size: 24px;
+            }
+            .btn_info {
+                width: 180.75px;
+                height: 44.25px;
+                font-size: 24px;
+                color: white;
+                background-color: #414042;
+                cursor: pointer;
+            }
+        }
+        .container {
+            position: relative;
+            img {
+                position: absolute;
+                top: 75px;
+                right: 127.5px;
+                height: 574.5px;
+            }
+        }
+    }
+}

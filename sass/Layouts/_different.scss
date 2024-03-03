@@ -1,0 +1,241 @@
+.different {
+    //fix blog
+    background: url(../../img/bg_different.png);
+    background-position: top 0px left -8px;
+    background-size: cover;
+    height: 968px;
+    .item_bg_dark {
+        width: 445px;
+        height: 338px;
+        background: #414042;
+        position: relative;
+        img {
+            position: absolute;
+            bottom: 52px;
+            left: 46px;
+        }
+    }
+    .item_bg_color {
+        display: flex;
+    }
+    .item_bg_color_child.expert {
+        width: 253px;
+        height: 338px;
+        background-color: #3994d1;
+    }
+    .item_bg_color_child .bg_bullhorn {
+        width: 192px;
+        height: 111px;
+        background-color: #7853a2;
+    }
+    .item_bg_color_child .bg_flask {
+        width: 192px;
+        height: 113px;
+        background-color: #ea572a;
+    }
+    .diferent_item {
+        padding-top: 159px;
+        padding-left: 232px;
+    }
+
+    //fix text
+    .item_bg_dark {
+        padding-left: 44px;
+        padding-top: 41px;
+    }
+    .text_oragane {
+        font-style: oblique;
+        letter-spacing: 2px;
+    }
+    .title_different {
+        font-size: 54px;
+        padding-top: 5px;
+        letter-spacing: 2px;
+        line-height: 71px;
+    }
+    .text_regula {
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .expert {
+        padding-left: 46px;
+    }
+    .title_little {
+        padding-top: 35px;
+        font-style: oblique;
+        letter-spacing: 2px;
+    }
+    .text_big {
+        font-size: 32px;
+        padding: 18px 45px 0 0;
+        letter-spacing: 5px;
+        line-height: 43px;
+    }
+    .item_bg_color_child.tow_color p {
+        font-size: 32px;
+        padding-top: 37px;
+        padding-left: 79px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .different {
+        //fix blog
+        background: url(../../img/bg_different.png);
+        background-position: top 0px left -7px;
+        background-size: cover;
+        height: 847px;
+        .item_bg_dark {
+            width: 389.375px;
+            height: 295.75px;
+            background: #414042;
+            position: relative;
+            img {
+                position: absolute;
+                bottom: 45.5px;
+                left: 40.25px;
+            }
+        }
+        .item_bg_color {
+            display: flex;
+        }
+        .item_bg_color_child.expert {
+            width: 221.375px;
+            height: 295.75px;
+            background-color: #3994d1;
+        }
+        .item_bg_color_child .bg_bullhorn {
+            width: 168px;
+            height: 97.125px;
+            background-color: #7853a2;
+        }
+        .item_bg_color_child .bg_flask {
+            width: 168px;
+            height: 98.875px;
+            background-color: #ea572a;
+        }
+        .diferent_item {
+            padding-top: 139.125px;
+            padding-left: 203px;
+        }
+
+        //fix text
+        .item_bg_dark {
+            padding-left: 38.5px;
+            padding-top: 35.875px;
+        }
+        .text_oragane {
+            font-style: oblique;
+            letter-spacing: 1.75px;
+        }
+        .title_different {
+            font-size: 47.25px;
+            padding-top: 4.375px;
+            letter-spacing: 1.75px;
+            line-height: 62.125px;
+        }
+        .text_regula {
+            letter-spacing: 0.875px;
+            line-height: 17.5px;
+        }
+        .expert {
+            padding-left: 40.25px;
+        }
+        .title_little {
+            padding-top: 30.625px;
+            font-style: oblique;
+            letter-spacing: 1.75px;
+        }
+        .text_big {
+            font-size: 28px;
+            padding: 15.75px 39.375px 0 0;
+            letter-spacing: 4.375px;
+            line-height: 37.625px;
+        }
+        .item_bg_color_child.tow_color p {
+            font-size: 28px;
+            padding-top: 32.375px;
+            padding-left: 69.125px;
+        }
+    }
+}
+@media screen and (min-width: 1209px) and (max-width: 1409px) {
+    .different {
+        //fix blog
+        background: url(../../img/bg_different.png);
+        background-position: top 0px left 0px;
+        background-size: cover;
+        height: 726px;
+        .item_bg_dark {
+            width: 334.5px;
+            height: 253.5px;
+            background: #414042;
+            position: relative;
+            img {
+                position: absolute;
+                bottom: 39px;
+                left: 34.5px;
+            }
+        }
+        .item_bg_color {
+            display: flex;
+        }
+        .item_bg_color_child.expert {
+            width: 189.75px;
+            height: 253.5px;
+            background-color: #3994d1;
+        }
+        .item_bg_color_child .bg_bullhorn {
+            width: 144px;
+            height: 83.25px;
+            background-color: #7853a2;
+        }
+        .item_bg_color_child .bg_flask {
+            width: 144px;
+            height: 84.75px;
+            background-color: #ea572a;
+        }
+        .diferent_item {
+            padding-top: 119.25px;
+            padding-left: 174px;
+        }
+
+        //fix text
+        .item_bg_dark {
+            padding-left: 33px;
+            padding-top: 30.75px;
+        }
+        .text_oragane {
+            font-style: oblique;
+            letter-spacing: 1.5px;
+        }
+        .title_different {
+            font-size: 40.5px;
+            padding-top: 3.75px;
+            letter-spacing: 1.5px;
+            line-height: 53.25px;
+        }
+        .text_regula {
+            letter-spacing: 0.75px;
+            line-height: 15px;
+        }
+        .expert {
+            padding-left: 34.5px;
+        }
+        .title_little {
+            padding-top: 26.25px;
+            font-style: oblique;
+            letter-spacing: 1.5px;
+        }
+        .text_big {
+            font-size: 24px;
+            padding: 13.5px 33.75px 0 0;
+            letter-spacing: 3.75px;
+            line-height: 32.25px;
+        }
+        .item_bg_color_child.tow_color p {
+            font-size: 24px;
+            padding-top: 27.75px;
+            padding-left: 59.25px;
+        }
+    }
+}

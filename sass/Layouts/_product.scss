@@ -1,0 +1,440 @@
+.product {
+    background-color: #3994d1;
+    height: 965px;
+    overflow: hidden;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 133px 0;
+    }
+    // .product_item {
+    //     width: 50%;
+    // }
+    .product_item.grid {
+        padding-left: 14px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 19px;
+
+        position: relative;
+        top: 0;
+        right: -59px;
+    }
+    .title_product {
+        font-size: 54px;
+        letter-spacing: 3px;
+        width: 700px;
+        position: relative;
+        top: 259px;
+        left: 239px;
+    }
+    .product_item_text {
+        padding-left: 235px;
+    }
+    .text_product {
+        padding-top: 167px;
+        width: 450px;
+        line-height: 28px;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+    .btn_bg_light {
+        width: 446px;
+        height: 131px;
+        position: relative;
+        bottom: -107px;
+        left: 2px;
+        color: white;
+        letter-spacing: 4.5px;
+        background-color: rgba(255, 255, 255, 0.257);
+        border: none;
+        font-weight: bold;
+    }
+    .bg_product_item {
+        width: 100%;
+        background-color: #ffffff;
+        height: 218px;
+        overflow: hidden;
+    }
+    .bg_item_full {
+        height: 100%;
+        width: 255px;
+    }
+    .product_right_item {
+        width: 215px;
+    }
+    .padding_right {
+        margin-right: 10px;
+    }
+    .bg_product_item.bg_light {
+        position: relative;
+        .project {
+            position: absolute;
+            bottom: 170px;
+            left: 31px;
+            color: black;
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+        .text_big {
+            position: absolute;
+            bottom: 75px;
+            left: 31px;
+            color: black;
+            font-size: 22px;
+            letter-spacing: 2.2px;
+            font-style: oblique;
+            width: 170px;
+            font-weight: bold;
+        }
+        .square {
+            width: 8px;
+            height: 11px;
+            border: 1px solid black;
+            position: absolute;
+            right: 21px;
+            bottom: 17px;
+        }
+    }
+    .bg_color_purple {
+        background-color: #7853a2;
+    }
+    .bg_product_item.bg_purple {
+        background-color: #7853a2;
+        .strategy {
+            padding-top: 100px;
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+        .text_big {
+            position: absolute;
+            bottom: 78px;
+            left: 31px;
+            color: white;
+            font-size: 22px;
+            letter-spacing: 2.2px;
+            font-style: oblique;
+            width: 170px;
+            font-weight: bold;
+        }
+        .square {
+            width: 8px;
+            height: 11px;
+            border: 1px solid white;
+            position: absolute;
+            right: 21px;
+            bottom: 20px;
+        }
+    }
+    .bg_product_item.bg_oragane {
+        background-color: #ea572a;
+        .project {
+            position: absolute;
+            bottom: 173px;
+            left: 31px;
+            color: white;
+            font-size: 16px;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+        }
+        .text_big {
+            position: absolute;
+            bottom: 80px;
+            left: 30px;
+            color: white;
+            font-size: 22px;
+            letter-spacing: 2.1px;
+            font-style: oblique;
+            width: 240px;
+            font-weight: bold;
+        }
+        .square {
+            width: 8px;
+            height: 11px;
+            border: 1px solid black;
+            position: absolute;
+            right: 21px;
+            bottom: 17px;
+        }
+    }
+    .img_bg_hiden {
+        width: 100%;
+        height: 244px;
+        position: relative;
+        .capsu {
+            position: absolute;
+            left: 40px;
+            top: 84px;
+            font-size: 87px;
+            letter-spacing: 15px;
+            // z-index: 999;
+        }
+    }
+}
+@media screen and (max-width: 1550px) {
+    .product {
+        background-color: #3994d1;
+        height: 844.375px;
+        overflow: hidden;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 116.375px 0;
+        }
+        // .product_item {
+        //     width: 50%;
+        // }
+        .product_item.grid {
+            padding-left: 12.25px;
+            display: flex;
+            justify-content: space-between;
+
+            position: relative;
+            top: 0;
+            right: -51.625px;
+        }
+        .title_product {
+            font-size: 47.25px;
+            letter-spacing: 2.625px;
+            width: 612.5px;
+            position: relative;
+            top: 226.625px;
+            left: 209.125px;
+        }
+        .product_item_text {
+            padding-left: 205.625px;
+        }
+        .text_product {
+            padding-top: 146.125px;
+            width: 393.75px;
+            line-height: 24.5px;
+            font-size: 14px;
+            letter-spacing: 0.4375px;
+        }
+        .btn_bg_light {
+            width: 390.25px;
+            height: 114.625px;
+            position: relative;
+            bottom: -93.625px;
+            left: 1.75px;
+            color: white;
+            letter-spacing: 3.9375px;
+            background-color: rgba(255, 255, 255, 0.257);
+            border: none;
+            font-weight: bold;
+        }
+        .bg_product_item {
+            width: 100%;
+            background-color: #ffffff;
+            height: 190.75px;
+        }
+        .bg_item_full {
+            height: 100%;
+            width: 223.125px;
+        }
+        .product_right_item {
+            width: 223.125px;
+        }
+        .padding_right {
+            margin-right: 8.75px;
+        }
+        .bg_color_purple {
+            background-color: #7853a2;
+        }
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1409px) {
+    .product {
+        background-color: #3994d1;
+        height: 723.75px;
+        overflow: hidden;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 99.75px 0; /* 133 * 0.75 */
+        }
+
+        .product_item.grid {
+            padding-left: 10.5px; /* 14 * 0.75 */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14.25px; /* 19 * 0.75 */
+
+            position: relative;
+            top: 0;
+            right: -44.25px; /* -59 * 0.75 */
+        }
+
+        .title_product {
+            font-size: 40.5px; /* 54 * 0.75 */
+            letter-spacing: 2.25px; /* 3 * 0.75 */
+            width: 525px; /* 700 * 0.75 */
+            position: relative;
+            top: 194.25px; /* 259 * 0.75 */
+            left: 179.25px; /* 239 * 0.75 */
+        }
+
+        .product_item_text {
+            padding-left: 176.25px; /* 235 * 0.75 */
+        }
+
+        .text_product {
+            padding-top: 125.25px; /* 167 * 0.75 */
+            width: 337.5px; /* 450 * 0.75 */
+            line-height: 21px; /* 28 * 0.75 */
+            font-size: 14px; /* 16 * 0.75 */
+            letter-spacing: 0.375px; /* 0.5 * 0.75 */
+        }
+
+        .btn_bg_light {
+            width: 334.5px; /* 446 * 0.75 */
+            height: 98.25px; /* 131 * 0.75 */
+            position: relative;
+            bottom: -80.25px; /* -107 * 0.75 */
+            left: 1.5px;
+            color: white;
+            letter-spacing: 3.375px; /* 4.5 * 0.75 */
+            background-color: rgba(255, 255, 255, 0.257);
+            border: none;
+            font-weight: bold;
+        }
+
+        .bg_product_item {
+            width: 100%;
+            background-color: #ffffff;
+            height: 163.5px; /* 218 * 0.75 */
+            overflow: hidden;
+        }
+
+        .bg_item_full {
+            height: 100%;
+            width: 191.25px; /* 255 * 0.75 */
+        }
+
+        .product_right_item {
+            width: 161.25px; /* 215 * 0.75 */
+        }
+
+        .padding_right {
+            margin-right: 7.5px; /* 10 * 0.75 */
+        }
+        .bg_product_item.bg_light {
+            position: relative;
+
+            .project {
+                position: absolute;
+                bottom: 127.5px; /* 170 * 0.75 */
+                left: 23.25px; /* 31 * 0.75 */
+                color: black;
+                font-size: 12px; /* 16 * 0.75 */
+                letter-spacing: 1.5px; /* 2 * 0.75 */
+            }
+
+            .text_big {
+                position: absolute;
+                bottom: 56.25px; /* 75 * 0.75 */
+                left: 23.25px; /* 31 * 0.75 */
+                color: black;
+                font-size: 16.5px; /* 22 * 0.75 */
+                letter-spacing: 1.65px; /* 2.2 * 0.75 */
+                font-style: oblique;
+                width: 127.5px; /* 170 * 0.75 */
+                font-weight: bold;
+            }
+
+            .square {
+                width: 6px; /* 8 * 0.75 */
+                height: 8.25px; /* 11 * 0.75 */
+                border: 0.75px solid black; /* 1 * 0.75 */
+                position: absolute;
+                right: 15.75px; /* 21 * 0.75 */
+                bottom: 12.75px; /* 17 * 0.75 */
+            }
+        }
+
+        .bg_product_item.bg_purple {
+            background-color: #7853a2;
+
+            .strategy {
+                padding-top: 75px; /* 100 * 0.75 */
+                color: white;
+                font-size: 12px; /* 16 * 0.75 */
+                text-transform: uppercase;
+                letter-spacing: 0.3px; /* 0.4 * 0.75 */
+            }
+
+            .text_big {
+                position: absolute;
+                bottom: 58.5px; /* 78 * 0.75 */
+                left: 23.25px; /* 31 * 0.75 */
+                color: white;
+                font-size: 16.5px; /* 22 * 0.75 */
+                letter-spacing: 1.65px; /* 2.2 * 0.75 */
+                font-style: oblique;
+                width: 127.5px; /* 170 * 0.75 */
+                font-weight: bold;
+            }
+
+            .square {
+                width: 6px; /* 8 * 0.75 */
+                height: 8.25px; /* 11 * 0.75 */
+                border: 0.75px solid white; /* 1 * 0.75 */
+                position: absolute;
+                right: 15.75px; /* 21 * 0.75 */
+                bottom: 15px; /* 20 * 0.75 */
+            }
+        }
+
+        .bg_product_item.bg_orange {
+            background-color: #ea572a;
+
+            .project {
+                position: absolute;
+                bottom: 129.75px; /* 173 * 0.75 */
+                left: 23.25px; /* 31 * 0.75 */
+                color: white;
+                font-size: 12px; /* 16 * 0.75 */
+                letter-spacing: 0px; /* 0 * 0.75 */
+                text-transform: uppercase;
+            }
+
+            .text_big {
+                position: absolute;
+                bottom: 60px; /* 80 * 0.75 */
+                left: 22.5px; /* 30 * 0.75 */
+                color: white;
+                font-size: 22px; /* 22 * 0.75 */
+                letter-spacing: 2.1px; /* 2.1 * 0.75 */
+                font-style: oblique;
+                width: 240px; /* 240 * 0.75 */
+                font-weight: bold;
+            }
+
+            .square {
+                width: 6px; /* 8 * 0.75 */
+                height: 8.25px; /* 11 * 0.75 */
+                border: 0.75px solid black; /* 1 * 0.75 */
+                position: absolute;
+                right: 15.75px; /* 21 * 0.75 */
+                bottom: 12.75px; /* 17 * 0.75 */
+            }
+        }
+
+        .img_bg_hiden {
+            width: 100%;
+            height: 183px; /* 244 * 0.75 */
+            position: relative;
+
+            .capsu {
+                position: absolute;
+                left: 30px; /* 40 * 0.75 */
+                top: 63px; /* 84 * 0.75 */
+                font-size: 65.25px; /* 87 * 0.75 */
+                letter-spacing: 11.25px; /* 15 * 0.75 */
+                // z-index: 999;
+            }
+        }
+    }
+}

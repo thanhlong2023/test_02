@@ -1,0 +1,67 @@
+.carousel {
+    background-color: black;
+    background-image: url(../../img/bg_carousel.png);
+    background-position: top 0px right 0px;
+    background-size: cover;
+    height: 790px;
+    .container {
+        width: 95%;
+        margin: 0 auto;
+        padding: 0 23px 0 39px;
+    }
+    .box_btn_carousel {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 479px;
+    }
+    .btn_left {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .carousel {
+        background-color: black;
+        background-image: url(../../img/bg_carousel.png);
+        background-position: top 0px right 0px;
+        background-size: cover;
+        height: 691.25px;
+        .container {
+            width: 95%;
+            margin: 0 auto;
+            padding: 0 20.125px 0 34.125px;
+        }
+        .box_btn_carousel {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 419.125px;
+        }
+        .btn_left {
+            margin-left: 8.75px;
+        }
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1409px) {
+    .carousel {
+        background-color: black;
+        background-image: url(../../img/bg_carousel.png);
+        background-position: top 0px right 0px;
+        background-size: cover;
+        height: 592.5px; /* 790 * 0.75 */
+
+        .container {
+            width: 95%;
+            margin: 0 auto;
+            padding: 0 17.25px 0 29.25px; /* 23 * 0.75, 39 * 0.75 */
+        }
+
+        .box_btn_carousel {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 359.25px; /* 479 * 0.75 */
+        }
+
+        .btn_left {
+            margin-left: 7.5px; /* 10 * 0.75 */
+        }
+    }
+}

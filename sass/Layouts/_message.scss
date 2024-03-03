@@ -1,0 +1,420 @@
+.message {
+    margin: 40px 0;
+    height: 900px;
+    margin-bottom: 28px;
+    .container {
+        background-image: url(../../img/banner_mess.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 885px;
+        margin: 0 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        margin-right: 32px;
+    }
+    .title_mess {
+        display: flex;
+        position: absolute;
+        top: 71px;
+        font-size: 48px;
+        letter-spacing: 7.5px;
+        left: 35px;
+        width: 1000px;
+        .send_us_a {
+            letter-spacing: 4px;
+            margin-left: 30px;
+        }
+    }
+    .message_item {
+        display: flex;
+        padding-top: 37px;
+        position: relative;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .get_in_touch {
+        background-color: #7853a2;
+        width: 365px;
+        height: 571px;
+        padding-left: 37px;
+        padding-top: 122px;
+    }
+    .send_us_a_mess {
+        background-color: #414042;
+        width: 554px;
+        height: 571px;
+    }
+    .form_mess {
+        display: flex;
+        flex-direction: column;
+    }
+    .get_in_touch .text {
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+    .number {
+        font-size: 32px;
+        padding-top: 39px;
+        align-items: center;
+        .square {
+            width: 17px;
+            height: 24px;
+            border: 3px solid white;
+        }
+        .phone {
+            padding-left: 11px;
+            letter-spacing: 1.5px;
+        }
+    }
+    .icon {
+        padding-top: 47px;
+    }
+    .icon i {
+        width: 42px;
+        height: 42px;
+        background-color: white;
+        line-height: 43px;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 15px 0 0px;
+        font-size: 31px;
+    }
+    .visit_us {
+        padding-top: 52px;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        .square {
+            width: 17px;
+            height: 24px;
+            border: 3px solid white;
+        }
+        .visit_us_child {
+            margin-left: 11.5px;
+        }
+    }
+    .form_mess {
+        margin: 0 32px 0 39px;
+        padding-top: 127px;
+    }
+    input {
+        height: 60px;
+        font-size: 32px;
+        background-color: #58595b;
+        color: white;
+        border: none;
+        padding-left: 20px;
+        padding-top: 7px;
+    }
+    input:focus {
+        outline: none;
+    }
+    ::placeholder {
+        color: white;
+    }
+    .input_email {
+        margin-top: 20px;
+    }
+    .input_message {
+        margin-top: 20px;
+    }
+    .btn_mess {
+        margin-top: 124px;
+        width: 239px;
+        height: 61px;
+        font-size: 32px;
+        color: white;
+        background-color: #ea572a;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .message {
+        margin: 35px 0;
+        height: 787.5px;
+        margin-bottom: 24.5px;
+
+        .container {
+            background-image: url(../../img/banner_mess.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 773.125px;
+            margin: 0 27.125px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            margin-right: 28px;
+        }
+
+        .title_mess {
+            display: flex;
+            position: absolute;
+            top: 62.125px;
+            font-size: 42px;
+            letter-spacing: 6.5625px;
+            left: 30.625px;
+            width: 875px;
+
+            .send_us_a {
+                letter-spacing: 3.5px;
+                margin-left: 26.25px;
+            }
+        }
+
+        .message_item {
+            display: flex;
+            padding-top: 32.375px;
+            position: relative;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .get_in_touch {
+            background-color: #7853a2;
+            width: 318.125px;
+            height: 498.875px;
+            padding-left: 32.375px;
+            padding-top: 106.75px;
+        }
+
+        .send_us_a_mess {
+            background-color: #414042;
+            width: 485.5px;
+            height: 498.875px;
+        }
+
+        .form_mess {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .get_in_touch .text {
+            line-height: 24.5px;
+            letter-spacing: 0.875px;
+        }
+
+        .number {
+            font-size: 28px;
+            padding-top: 34.125px;
+            align-items: center;
+
+            .square {
+                width: 14.875px;
+                height: 21px;
+                border: 2.625px solid white;
+            }
+
+            .phone {
+                padding-left: 9.625px;
+                letter-spacing: 1.3125px;
+            }
+        }
+
+        .icon {
+            padding-top: 40.9375px;
+        }
+
+        .icon i {
+            width: 36.75px;
+            height: 36.75px;
+            background-color: white;
+            line-height: 37.5625px;
+            text-align: center;
+            border-radius: 43.75%;
+            margin: 0 13.125px 0 0px;
+            font-size: 27.125px;
+        }
+
+        .visit_us {
+            padding-top: 45.5px;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+
+            .square {
+                width: 14.875px;
+                height: 21px;
+                border: 2.625px solid white;
+            }
+
+            .visit_us_child {
+                margin-left: 10.1875px;
+            }
+        }
+
+        .form_mess {
+            margin: 28px 28px 34.125px 34.3125px;
+            padding-top: 110.9375px;
+        }
+
+        input {
+            height: 52.5px;
+            font-size: 28px;
+            background-color: #58595b;
+            color: white;
+            border: none;
+            padding-left: 17.5px;
+            padding-top: 6.125px;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        .input_email {
+            margin-top: 17.5px;
+        }
+
+        .input_message {
+            margin-top: 17.5px;
+        }
+
+        .btn_mess {
+            margin-top: 108.5px;
+            width: 209.375px;
+            height: 53.125px;
+            font-size: 28px;
+            color: white;
+            background-color: #ea572a;
+        }
+    }
+}
+@media screen and (min-width: 1209px) and (max-width: 1409px) {
+    .message {
+        margin: 30px 0;
+        height: 675px;
+        margin-bottom: 21px;
+        .container {
+            background-image: url(../../img/banner_mess.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 663.75px;
+            margin: 0 23.25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            margin-right: 24px;
+        }
+        .title_mess {
+            display: flex;
+            position: absolute;
+            top: 53.25px;
+            font-size: 36px;
+            letter-spacing: 5.625px;
+            left: 26.25px;
+            width: 750px;
+            .send_us_a {
+                letter-spacing: 3px;
+                margin-left: 22.5px;
+            }
+        }
+        .message_item {
+            display: flex;
+            padding-top: 27.75px;
+            position: relative;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .get_in_touch {
+            background-color: #7853a2;
+            width: 273.75px;
+            height: 428.25px;
+            padding-left: 27.75px;
+            padding-top: 91.5px;
+        }
+        .send_us_a_mess {
+            background-color: #414042;
+            width: 415.5px;
+            height: 428.25px;
+        }
+        .form_mess {
+            display: flex;
+            flex-direction: column;
+        }
+        .get_in_touch .text {
+            line-height: 21px;
+            letter-spacing: 0.75px;
+        }
+        .number {
+            font-size: 24px;
+            padding-top: 29.25px;
+            align-items: center;
+            .square {
+                width: 12.75px;
+                height: 18px;
+                border: 2.25px solid white;
+            }
+            .phone {
+                padding-left: 8.25px;
+                letter-spacing: 1.125px;
+            }
+        }
+        .icon {
+            padding-top: 35.25px;
+        }
+        .icon i {
+            width: 31.5px;
+            height: 31.5px;
+            background-color: white;
+            line-height: 31.5px;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 11.25px 0 0px;
+            font-size: 23.25px;
+        }
+        .visit_us {
+            padding-top: 39px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            .square {
+                width: 12.75px;
+                height: 18px;
+                border: 2.25px solid white;
+            }
+            .visit_us_child {
+                margin-left: 8.625px;
+            }
+        }
+        .form_mess {
+            margin: 0 24px 0 29.25px;
+            padding-top: 95.25px;
+        }
+        input {
+            height: 45px;
+            font-size: 24px;
+            background-color: #58595b;
+            color: white;
+            border: none;
+            padding-left: 15px;
+            padding-top: 5.25px;
+        }
+        input:focus {
+            outline: none;
+        }
+        ::placeholder {
+            color: white;
+        }
+        .input_email {
+            margin-top: 15px;
+        }
+        .input_message {
+            margin-top: 15px;
+        }
+        .btn_mess {
+            margin-top: 93px;
+            width: 179.25px;
+            height: 45.75px;
+            font-size: 24px;
+            color: white;
+            background-color: #ea572a;
+        }
+    }
+}

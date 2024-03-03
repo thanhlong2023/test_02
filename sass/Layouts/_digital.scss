@@ -1,0 +1,269 @@
+.digital {
+    height: 274px;
+    background-color: #9277b5;
+
+    .digital_content {
+        flex-direction: row;
+        padding-left: 225px;
+    }
+    .digital_content_item {
+        width: 50%;
+    }
+
+    .events {
+        font-style: oblique;
+        margin-bottom: 9px;
+        display: block;
+        letter-spacing: 1.3px;
+        font-size: 16px;
+    }
+    .title_digital {
+        font-size: 54px;
+        letter-spacing: 2.1px;
+        margin-bottom: 9px;
+    }
+    .text_digital {
+        width: 450px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 16px;
+    }
+    .item_child.right {
+        text-align: left;
+    }
+    .november {
+        letter-spacing: 5px;
+        font-size: 32px;
+        padding-left: 18px;
+        padding-top: 37px;
+    }
+    .item_child.right {
+        padding-left: 84px;
+        padding-top: 128px;
+        width: 62%;
+        letter-spacing: 2px;
+        position: relative;
+    }
+    .item_child.left {
+        background-color: #7853a2;
+        width: 38%;
+    }
+    .padding_left {
+        padding-left: 11px;
+    }
+    .plaza {
+        font-size: 32px;
+    }
+    .london {
+        letter-spacing: 0.7px;
+        padding-top: 6px;
+        font-size: 16px;
+    }
+    .item_child {
+        height: 274px;
+    }
+    // chinhr padding marrgin
+    .hinh_chu_nhat {
+        border: 7px solid white;
+        width: 43px;
+        height: 62px;
+        margin-top: 88px;
+        margin-left: 96px;
+    }
+    .square {
+        border: 3px solid white;
+        width: 17px;
+        height: 24px;
+        position: absolute;
+        top: 133px;
+        left: 49px;
+    }
+    .padding_top_digitial {
+        padding-top: 70px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .digital {
+        height: 239.75px;
+        background-color: #9277b5;
+
+        .digital_content {
+            flex-direction: row;
+            padding-left: 196.875px;
+        }
+        .digital_content_item {
+            width: 50%;
+        }
+
+        .events {
+            font-style: oblique;
+            margin-bottom: 7.875px;
+            display: block;
+            letter-spacing: 1.1375px;
+            font-size: 14px;
+        }
+        .title_digital {
+            font-size: 47.25px;
+            letter-spacing: 1.8375000000000001px;
+            margin-bottom: 7.875px;
+        }
+        .text_digital {
+            width: 393.75px;
+            letter-spacing: 0.875px;
+            line-height: 24.5px;
+            font-size: 14px;
+        }
+        .item_child.right {
+            text-align: left;
+        }
+        .november {
+            letter-spacing: 4.375px;
+            font-size: 28px;
+            padding-left: 15.75px;
+            padding-top: 32.375px;
+        }
+        .item_child.right {
+            padding-left: 73.5px;
+            padding-top: 112px;
+            width: 62%;
+            letter-spacing: 1.75px;
+            position: relative;
+        }
+        .item_child.left {
+            background-color: #7853a2;
+            width: 38%;
+        }
+        .padding_left {
+            padding-left: 9.625px;
+        }
+        .plaza {
+            font-size: 28px;
+        }
+        .london {
+            letter-spacing: 0.7px;
+            padding-top: 5.25px;
+            font-size: 14px;
+        }
+        .item_child {
+            height: 239.75px;
+        }
+        // chinhr padding marrgin
+        .hinh_chu_nhat {
+            border: 6.125px solid white;
+            width: 37.625px;
+            height: 54.25px;
+            margin-top: 77px;
+            margin-left: 84px;
+        }
+        .square {
+            border: 2.625px solid white;
+            width: 14.875px;
+            height: 21px;
+            position: absolute;
+            top: 116.375px;
+            left: 42.875px;
+        }
+        .padding_top_digitial {
+            padding-top: 61.25px;
+        }
+    }
+}
+@media screen and (min-width: 1209px) and (max-width: 1409px) {
+    .digital {
+        height: 205.5px; /* 274 * 0.75 */
+        background-color: #9277b5;
+
+        .digital_content {
+            flex-direction: row;
+            padding-left: 168.75px; /* 225 * 0.75 */
+        }
+
+        .digital_content_item {
+            width: 50%;
+        }
+
+        .events {
+            font-style: oblique;
+            margin-bottom: 6.75px; /* 9 * 0.75 */
+            display: block;
+            letter-spacing: 0.975px; /* 1.3 * 0.75 */
+            font-size: 12px; /* 16 * 0.75 */
+        }
+
+        .title_digital {
+            font-size: 40.5px; /* 54 * 0.75 */
+            letter-spacing: 1.575px; /* 2.1 * 0.75 */
+            margin-bottom: 6.75px; /* 9 * 0.75 */
+        }
+
+        .text_digital {
+            width: 337.5px; /* 450 * 0.75 */
+            letter-spacing: 0.75px; /* 1 * 0.75 */
+            line-height: 21px; /* 28 * 0.75 */
+            font-size: 14px; /* 16 * 0.75 */
+        }
+
+        .item_child.right {
+            text-align: left;
+        }
+
+        .november {
+            letter-spacing: 3.75px; /* 5 * 0.75 */
+            font-size: 14px; /* 32 * 0.75 */
+            padding-left: 13.5px; /* 18 * 0.75 */
+            padding-top: 27.75px; /* 37 * 0.75 */
+        }
+
+        .item_child.right {
+            padding-left: 63px; /* 84 * 0.75 */
+            padding-top: 96px; /* 128 * 0.75 */
+            width: 46.5%; /* 62 * 0.75 */
+            letter-spacing: 1.5px; /* 2 * 0.75 */
+            position: relative;
+        }
+
+        .item_child.left {
+            background-color: #7853a2;
+            width: 28.5%; /* 38 * 0.75 */
+        }
+
+        .padding_left {
+            padding-left: 8.25px; /* 11 * 0.75 */
+        }
+
+        .plaza {
+            font-size: 24px; /* 32 * 0.75 */
+        }
+
+        .london {
+            letter-spacing: 0.525px; /* 0.7 * 0.75 */
+            padding-top: 4.5px; /* 6 * 0.75 */
+            font-size: 12px; /* 16 * 0.75 */
+        }
+
+        .item_child {
+            height: 205.5px; /* 274 * 0.75 */
+        }
+
+        .hinh_chu_nhat {
+            border: 4.25px solid white; /* 7 * 0.75 */
+            width: 32.25px; /* 43 * 0.75 */
+            height: 46.5px; /* 62 * 0.75 */
+            margin-top: 66px; /* 88 * 0.75 */
+            margin-left: 50px; /* 96 * 0.75 */
+        }
+
+        .square {
+            border: 2.25px solid white; /* 3 * 0.75 */
+            width: 12.75px; /* 17 * 0.75 */
+            height: 18px; /* 24 * 0.75 */
+            position: absolute;
+            top: 99.75px; /* 133 * 0.75 */
+            left: 36.75px; /* 49 * 0.75 */
+        }
+
+        .padding_top_digitial {
+            padding-top: 52.5px; /* 70 * 0.75 */
+        }
+    }
+}
